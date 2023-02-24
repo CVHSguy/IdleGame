@@ -19,7 +19,7 @@ pipeline {
 			{
 				steps
 				{
-					echo "test started"
+					Echo "test started"
 				}
 			}
 
@@ -27,7 +27,7 @@ pipeline {
 			{
 				steps
 				{
-					echo "deployment started"
+					echo 'deployment started'
 
 				}
 			}
