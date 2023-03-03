@@ -11,7 +11,7 @@ pipeline {
 			steps
 			{
 				sh "dotnet restore"
-				sh "dotnet build IdleGame/IdleGame.csproj"
+				sh "dotnet build IdleGame/Web/home.html"
 				echo "build complete"}
 			}
 
